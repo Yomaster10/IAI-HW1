@@ -2,6 +2,8 @@
 
 Written by Yotam Granov & Lior Karne
 
+Wet Assignment:
+
 (1) BFS - Done & Verified (Lior)
 
 (2) DFS - Done & Verified (Yotam)
@@ -15,3 +17,5 @@ Written by Yotam Granov & Lior Karne
 (6) Weighted A* - Done & Verified (Lior)
 
 (7) A* Epsilon - Done & Verified (Yotam)
+
+Dry Report: Done & Verified
