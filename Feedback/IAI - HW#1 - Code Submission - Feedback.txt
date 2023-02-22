@@ -1,0 +1,1529 @@
+***TESTS*** 
+ 
+*************map5x5_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 236.0
+Expanded: PASSED
+output: 24
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 236.0
+Expanded: PASSED
+output: 14
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 236.0
+Expanded: PASSED
+output: 81
+
+***UCS*** 
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 24
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 14
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 14
+
+0.3
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 14
+
+0.7
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 14
+
+0.9
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 14
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 24
+
+0.3
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 24
+
+0.7
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 24
+
+0.9
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 235.0
+Expanded: PASSED
+output: 24
+*************map5x5_2*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [1, 0, 0, 0, 1, 0, 1, 1]
+Total cost: PASSED
+output: 38.0
+Expanded: PASSED
+output: 24
+
+***DFS-G*** 
+Actions: PASSED
+output: [1, 0, 0, 0, 0, 1, 1, 1, 1]
+Total cost: PASSED
+output: 228.0
+Expanded: PASSED
+output: 11
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [1, 0, 0, 0, 0, 1, 1, 1, 1]
+Total cost: PASSED
+output: 228.0
+Expanded: PASSED
+output: 90
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: PASSED
+output: 20
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: PASSED
+output: 13
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: FAILED 
+output: 14
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: FAILED 
+output: 14
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: FAILED 
+output: 14
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: FAILED 
+output: 14
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: PASSED
+output: 20
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: PASSED
+output: 20
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: PASSED
+output: 20
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 30.0
+Expanded: PASSED
+output: 20
+*************map8x8_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0]
+Total cost: PASSED
+output: 129.0
+Expanded: PASSED
+output: 30
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0]
+Total cost: PASSED
+output: 129.0
+Expanded: PASSED
+output: 10
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0]
+Total cost: PASSED
+output: 129.0
+Expanded: PASSED
+output: 62
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+*************map8x8_2*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0]
+Total cost: PASSED
+output: 129.0
+Expanded: PASSED
+output: 30
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0]
+Total cost: PASSED
+output: 129.0
+Expanded: PASSED
+output: 10
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0]
+Total cost: PASSED
+output: 129.0
+Expanded: PASSED
+output: 62
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 75.0
+Expanded: PASSED
+output: 18
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 52.0
+Expanded: PASSED
+output: 58
+*************map10x10_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 2, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0]
+Total cost: PASSED
+output: 201.0
+Expanded: PASSED
+output: 98
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 1, 1, 0, 0, 1, 2, 1, 1, 0]
+Total cost: PASSED
+output: 328.0
+Expanded: PASSED
+output: 31
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 2, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0]
+Total cost: PASSED
+output: 198.0
+Expanded: PASSED
+output: 544
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 79
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 110.0
+Expanded: PASSED
+output: 24
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 110.0
+Expanded: PASSED
+output: 24
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 110.0
+Expanded: PASSED
+output: 24
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 110.0
+Expanded: PASSED
+output: 24
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 110.0
+Expanded: PASSED
+output: 24
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 79
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 79
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 79
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 3, 0, 0, 1, 0]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 79
+*************map10x10_2*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+Total cost: PASSED
+output: 96.0
+Expanded: PASSED
+output: 99
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 1]
+Total cost: PASSED
+output: 100.0
+Expanded: PASSED
+output: 22
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0, 1]
+Total cost: PASSED
+output: 100.0
+Expanded: PASSED
+output: 692
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 97
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 1]
+Total cost: PASSED
+output: 108.0
+Expanded: PASSED
+output: 24
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 1]
+Total cost: PASSED
+output: 108.0
+Expanded: PASSED
+output: 24
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 1]
+Total cost: PASSED
+output: 108.0
+Expanded: PASSED
+output: 24
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 1]
+Total cost: PASSED
+output: 108.0
+Expanded: PASSED
+output: 24
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 1]
+Total cost: PASSED
+output: 108.0
+Expanded: PASSED
+output: 24
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 97
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 97
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 97
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1]
+Total cost: PASSED
+output: 76.0
+Expanded: PASSED
+output: 97
+*************map12x12_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1]
+Total cost: PASSED
+output: 109.0
+Expanded: PASSED
+output: 141
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 2, 1, 1, 0, 1]
+Total cost: PASSED
+output: 121.0
+Expanded: PASSED
+output: 33
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 2, 1, 1, 0, 1]
+Total cost: PASSED
+output: 121.0
+Expanded: PASSED
+output: 1149
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Total cost: PASSED
+output: 87.0
+Expanded: PASSED
+output: 123
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 227.0
+Expanded: PASSED
+output: 32
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 227.0
+Expanded: PASSED
+output: 32
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 227.0
+Expanded: PASSED
+output: 32
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 227.0
+Expanded: PASSED
+output: 32
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0]
+Total cost: PASSED
+output: 227.0
+Expanded: PASSED
+output: 32
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Total cost: PASSED
+output: 87.0
+Expanded: PASSED
+output: 123
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Total cost: PASSED
+output: 87.0
+Expanded: PASSED
+output: 123
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Total cost: PASSED
+output: 87.0
+Expanded: PASSED
+output: 123
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Total cost: PASSED
+output: 87.0
+Expanded: PASSED
+output: 123
+*************map12x12_2*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0]
+Total cost: PASSED
+output: 177.0
+Expanded: PASSED
+output: 104
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 3, 0, 3, 2, 2, 1, 2, 1, 1, 0, 1, 0, 0]
+Total cost: PASSED
+output: 219.0
+Expanded: PASSED
+output: 35
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0]
+Total cost: PASSED
+output: 177.0
+Expanded: PASSED
+output: 526
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 97.0
+Expanded: PASSED
+output: 134
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 114.0
+Expanded: PASSED
+output: 31
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 114.0
+Expanded: FAILED 
+output: 32
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 114.0
+Expanded: FAILED 
+output: 32
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 114.0
+Expanded: FAILED 
+output: 32
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 114.0
+Expanded: FAILED 
+output: 32
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 97.0
+Expanded: PASSED
+output: 134
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 97.0
+Expanded: PASSED
+output: 134
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 97.0
+Expanded: PASSED
+output: 134
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 97.0
+Expanded: PASSED
+output: 134
+*************map15x15_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1]
+Total cost: PASSED
+output: 121.0
+Expanded: PASSED
+output: 223
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 2, 1, 1, 0, 1, 2, 2, 2, 1, 1, 0, 0, 0, 1, 1]
+Total cost: PASSED
+output: 181.0
+Expanded: PASSED
+output: 47
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 2, 1, 1, 0, 1, 2, 2, 2, 1, 1, 0, 0, 0, 1, 1]
+Total cost: PASSED
+output: 181.0
+Expanded: PASSED
+output: 3047
+
+***UCS*** 
+Actions: PASSED
+output: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 106.0
+Expanded: PASSED
+output: 219
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 3, 3, 3, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+Total cost: PASSED
+output: 188.0
+Expanded: PASSED
+output: 53
+
+***WA-Star*** 
+
+0.1
+Actions: FAILED 
+output: [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+Total cost: FAILED 
+output: 167.0
+Expanded: FAILED 
+output: 69
+
+0.3
+Actions: FAILED 
+output: [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+Total cost: FAILED 
+output: 167.0
+Expanded: FAILED 
+output: 69
+
+0.7
+Actions: FAILED 
+output: [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+Total cost: FAILED 
+output: 167.0
+Expanded: FAILED 
+output: 69
+
+0.9
+Actions: FAILED 
+output: [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0]
+Total cost: FAILED 
+output: 167.0
+Expanded: FAILED 
+output: 69
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 106.0
+Expanded: PASSED
+output: 219
+
+0.3
+Actions: PASSED
+output: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 106.0
+Expanded: PASSED
+output: 219
+
+0.7
+Actions: PASSED
+output: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 106.0
+Expanded: PASSED
+output: 219
+
+0.9
+Actions: PASSED
+output: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0]
+Total cost: PASSED
+output: 106.0
+Expanded: PASSED
+output: 219
+*************map15x15_2*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+Total cost: PASSED
+output: 196.0
+Expanded: PASSED
+output: 220
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 1, 1, 1, 2, 1, 2, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+Total cost: PASSED
+output: 214.0
+Expanded: PASSED
+output: 39
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0, 0, 1, 1, 1, 2, 1, 2, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+Total cost: PASSED
+output: 214.0
+Expanded: PASSED
+output: 2229
+
+***UCS*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+Total cost: PASSED
+output: 148.0
+Expanded: PASSED
+output: 220
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [0, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3, 3, 0, 0, 1, 1]
+Total cost: PASSED
+output: 191.0
+Expanded: PASSED
+output: 50
+
+***WA-Star*** 
+
+0.1
+Actions: FAILED 
+output: [0, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 3, 0, 0, 1, 1]
+Total cost: FAILED 
+output: 190.0
+Expanded: FAILED 
+output: 54
+
+0.3
+Actions: FAILED 
+output: [0, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 3, 0, 0, 1, 1]
+Total cost: FAILED 
+output: 190.0
+Expanded: FAILED 
+output: 54
+
+0.7
+Actions: FAILED 
+output: [0, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 3, 0, 0, 1, 1]
+Total cost: FAILED 
+output: 190.0
+Expanded: FAILED 
+output: 54
+
+0.9
+Actions: FAILED 
+output: [0, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 3, 0, 3, 0, 0, 1, 1]
+Total cost: FAILED 
+output: 190.0
+Expanded: FAILED 
+output: 54
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+Total cost: PASSED
+output: 148.0
+Expanded: PASSED
+output: 220
+
+0.3
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+Total cost: PASSED
+output: 148.0
+Expanded: PASSED
+output: 220
+
+0.7
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+Total cost: PASSED
+output: 148.0
+Expanded: PASSED
+output: 220
+
+0.9
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+Total cost: PASSED
+output: 148.0
+Expanded: PASSED
+output: 220
+*************map20x20_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 0, 0, 1, 1, 0, 0, 0, 0, 1]
+Total cost: PASSED
+output: 256.0
+Expanded: PASSED
+output: 390
+
+***DFS-G*** 
+Actions: PASSED
+output: [1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 1, 1, 0, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 0, 0, 0, 0, 1]
+Total cost: PASSED
+output: 282.0
+Expanded: PASSED
+output: 57
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 1, 1, 0, 1, 1, 1, 1, 2, 2, 2, 1, 2, 1, 1, 0, 0, 0, 0, 1]
+Total cost: PASSED
+output: 282.0
+Expanded: PASSED
+output: 6966
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 175.0
+Expanded: PASSED
+output: 390
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 268.0
+Expanded: PASSED
+output: 45
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 268.0
+Expanded: FAILED 
+output: 46
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 268.0
+Expanded: FAILED 
+output: 46
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 268.0
+Expanded: FAILED 
+output: 46
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 1, 0, 0, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 268.0
+Expanded: FAILED 
+output: 46
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 175.0
+Expanded: PASSED
+output: 390
+
+0.3
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 175.0
+Expanded: PASSED
+output: 390
+
+0.7
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 175.0
+Expanded: PASSED
+output: 390
+
+0.9
+Actions: PASSED
+output: [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 0, 1, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 0]
+Total cost: PASSED
+output: 175.0
+Expanded: PASSED
+output: 390
+*************map20x20_2 *************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+Total cost: PASSED
+output: 171.0
+Expanded: PASSED
+output: 397
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 1, 1, 0, 1, 1, 1, 2, 1, 1, 0, 1]
+Total cost: PASSED
+output: 323.0
+Expanded: PASSED
+output: 51
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 1, 0, 1, 1, 1, 2, 1, 2, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1]
+Total cost: PASSED
+output: 266.0
+Expanded: PASSED
+output: 5493
+
+***UCS*** 
+Actions: PASSED
+output: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 133.0
+Expanded: PASSED
+output: 396
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 3, 3, 3, 3, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 262.0
+Expanded: PASSED
+output: 62
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 3, 3, 3, 3, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 262.0
+Expanded: FAILED 
+output: 65
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 3, 3, 3, 3, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 262.0
+Expanded: FAILED 
+output: 65
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 3, 3, 3, 3, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 262.0
+Expanded: FAILED 
+output: 65
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 3, 3, 3, 3, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+Total cost: PASSED
+output: 262.0
+Expanded: FAILED 
+output: 65
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 133.0
+Expanded: PASSED
+output: 396
+
+0.3
+Actions: PASSED
+output: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 133.0
+Expanded: PASSED
+output: 396
+
+0.7
+Actions: PASSED
+output: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 133.0
+Expanded: PASSED
+output: 396
+
+0.9
+Actions: PASSED
+output: [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 133.0
+Expanded: PASSED
+output: 396
+*************map30x30_1*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1]
+Total cost: PASSED
+output: 407.0
+Expanded: PASSED
+output: 895
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 1, 1, 1, 2, 1, 1, 0, 0, 1, 0, 1, 2, 2, 1, 1, 1, 2, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 2, 1, 1, 0, 1, 1]
+Total cost: PASSED
+output: 415.0
+Expanded: PASSED
+output: 96
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 2, 2, 1, 1, 0, 0, 1, 1, 2, 2, 2, 1, 1, 0, 0, 1, 2, 1, 2, 1, 2, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 1, 1]
+Total cost: PASSED
+output: 508.0
+Expanded: PASSED
+output: 19200
+
+***UCS*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 1, 1, 0]
+Total cost: PASSED
+output: 178.0
+Expanded: PASSED
+output: 865
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 1, 1, 0, 1, 0]
+Total cost: PASSED
+output: 371.0
+Expanded: PASSED
+output: 111
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 1, 1, 0, 1, 0]
+Total cost: PASSED
+output: 371.0
+Expanded: PASSED
+output: 111
+
+0.3
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 1, 1, 0, 1, 0]
+Total cost: PASSED
+output: 371.0
+Expanded: PASSED
+output: 111
+
+0.7
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 1, 1, 0, 1, 0]
+Total cost: PASSED
+output: 371.0
+Expanded: PASSED
+output: 111
+
+0.9
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 1, 1, 0, 1, 0]
+Total cost: PASSED
+output: 371.0
+Expanded: PASSED
+output: 111
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 1, 1, 0]
+Total cost: PASSED
+output: 178.0
+Expanded: PASSED
+output: 865
+
+0.3
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 1, 1, 0]
+Total cost: PASSED
+output: 178.0
+Expanded: PASSED
+output: 865
+
+0.7
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 1, 1, 0]
+Total cost: PASSED
+output: 178.0
+Expanded: PASSED
+output: 865
+
+0.9
+Actions: PASSED
+output: [0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 3, 0, 0, 0, 0, 1, 1, 1, 0]
+Total cost: PASSED
+output: 178.0
+Expanded: PASSED
+output: 865
+*************map30x30_2*************
+
+***BFS-G*** 
+Actions: PASSED
+output: [0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0]
+Total cost: PASSED
+output: 393.0
+Expanded: PASSED
+output: 893
+
+***DFS-G*** 
+Actions: PASSED
+output: [0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 525.0
+Expanded: PASSED
+output: 157
+
+***ID-DFS-G*** 
+Actions: PASSED
+output: [0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 2, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 1, 0]
+Total cost: PASSED
+output: 525.0
+Expanded: PASSED
+output: 21091
+
+***UCS*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 224.0
+Expanded: PASSED
+output: 893
+
+***Greedy-Best-Search*** 
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 516.0
+Expanded: PASSED
+output: 92
+
+***WA-Star*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 516.0
+Expanded: PASSED
+output: 92
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 516.0
+Expanded: PASSED
+output: 92
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 516.0
+Expanded: PASSED
+output: 92
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 516.0
+Expanded: PASSED
+output: 92
+
+***A-Star_epsilon*** 
+
+0.1
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 224.0
+Expanded: PASSED
+output: 893
+
+0.3
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 224.0
+Expanded: PASSED
+output: 893
+
+0.7
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 224.0
+Expanded: PASSED
+output: 893
+
+0.9
+Actions: PASSED
+output: [1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 3, 3, 0, 0, 0, 3, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0]
+Total cost: PASSED
+output: 224.0
+Expanded: PASSED
+output: 893
+
